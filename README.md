@@ -4,8 +4,14 @@ A simple tool for running multiple periodic tasks at regular intervals.
 
 There's a global start/stop and jobs can be started/stopped individually too.
 
+## Installation
+
+```bash
+npm install @headwall/easy-cronjs
+```
 
 ## Usage
+
 ```javascript
 const cron = require('@headwall/easy-cronjs');
 
@@ -16,7 +22,6 @@ const cron = require('@headwall/easy-cronjs');
 cron.addJob('My Cron Job', 1000, () => {
 	console.log('tick');
 });
-
 
 // Start easy-cronjs
 cron.start();
@@ -31,7 +36,6 @@ cron.stop();
 // All done
 console.log('end');
 ```
-
 ## Other useful bits
 
 ```javascript
