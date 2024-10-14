@@ -3,7 +3,10 @@
   "version": "1.1.4",
   "description": "Simple scheduled tasks for JS apps.",
   "main": "./src/index.js",
-  "homepage": "https://github.com/headwalluk/easy-cronjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headwalluk/easy-cronjs"
+  },
   "scripts": {
     "test": "node ./src/test.js",
     "build": "./scripts/build-dist.sh ",
